@@ -12,15 +12,15 @@ import com.cloud.phone.model.DeviceType;
  */
 public class WebRtcConfig {
     //stun服务器配置
-    public static final String STUN_URI = "stun:192.168.1.168:3478";
+    public static final String STUN_URI = "stun:114.55.114.193:13478";
     public static final String STUN_USER_NAME = "";
     public static final String STUN_PASSWORD = "";
     //turn服务器配置
-    public static final String TURN_URI = "turn:192.168.1.168:3478";
-    public static final String TURN_USER_NAME = "admin";
-    public static final String TURN_PASSWORD = "admin";
+    public static final String TURN_URI = "turn:114.55.114.193:13478";
+    public static final String TURN_USER_NAME = "dataant";
+    public static final String TURN_PASSWORD = "dataant666";
     //socket
-    public static final String SOCKET_URI = "wss://192.168.1.168:18443/";
+    public static final String SOCKET_URI = "ws://114.55.114.193:13477/";
 
     //是否开启Candidate延迟队列
     public static final boolean enableDelayQueue = false;
